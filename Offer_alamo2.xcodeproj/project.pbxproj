@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,12 @@
 		2B721CCA22BA084E002F3036 /* Offer_alamo2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B721CC822BA084E002F3036 /* Offer_alamo2.xcdatamodeld */; };
 		2B721CCC22BA084F002F3036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B721CCB22BA084F002F3036 /* Assets.xcassets */; };
 		2B721CCF22BA084F002F3036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B721CCD22BA084F002F3036 /* LaunchScreen.storyboard */; };
+		2B79F72C22BB56E700C63BF2 /* OffersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B79F72B22BB56E700C63BF2 /* OffersCell.swift */; };
+		876ADEF5F41C213D9BE23FA5 /* Pods_Offer_alamo2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE4E7F8D75653BBE682F396 /* Pods_Offer_alamo2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		286B8BA1F7EF2F8F0FBCECA2 /* Pods-Offer_alamo2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Offer_alamo2.debug.xcconfig"; path = "Target Support Files/Pods-Offer_alamo2/Pods-Offer_alamo2.debug.xcconfig"; sourceTree = "<group>"; };
 		2B721CBE22BA084E002F3036 /* Offer_alamo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Offer_alamo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B721CC122BA084E002F3036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B721CC322BA084E002F3036 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		2B721CCB22BA084F002F3036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B721CCE22BA084F002F3036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B721CD022BA084F002F3036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B79F72B22BB56E700C63BF2 /* OffersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersCell.swift; sourceTree = "<group>"; };
+		2DE4E7F8D75653BBE682F396 /* Pods_Offer_alamo2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Offer_alamo2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3A66198D0DF08888DE7B94D /* Pods-Offer_alamo2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Offer_alamo2.release.xcconfig"; path = "Target Support Files/Pods-Offer_alamo2/Pods-Offer_alamo2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				876ADEF5F41C213D9BE23FA5 /* Pods_Offer_alamo2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				2B721CC022BA084E002F3036 /* Offer_alamo2 */,
 				2B721CBF22BA084E002F3036 /* Products */,
+				CF4EA33573B4EAEC4BBA3F04 /* Pods */,
+				673B78D3954C02AF680B296F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +68,30 @@
 				2B721CC122BA084E002F3036 /* AppDelegate.swift */,
 				2B721CC322BA084E002F3036 /* ViewController.swift */,
 				2B721CC522BA084E002F3036 /* Main.storyboard */,
+				2B79F72B22BB56E700C63BF2 /* OffersCell.swift */,
 				2B721CCB22BA084F002F3036 /* Assets.xcassets */,
 				2B721CCD22BA084F002F3036 /* LaunchScreen.storyboard */,
 				2B721CD022BA084F002F3036 /* Info.plist */,
 				2B721CC822BA084E002F3036 /* Offer_alamo2.xcdatamodeld */,
 			);
 			path = Offer_alamo2;
+			sourceTree = "<group>";
+		};
+		673B78D3954C02AF680B296F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DE4E7F8D75653BBE682F396 /* Pods_Offer_alamo2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF4EA33573B4EAEC4BBA3F04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				286B8BA1F7EF2F8F0FBCECA2 /* Pods-Offer_alamo2.debug.xcconfig */,
+				C3A66198D0DF08888DE7B94D /* Pods-Offer_alamo2.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B721CD322BA084F002F3036 /* Build configuration list for PBXNativeTarget "Offer_alamo2" */;
 			buildPhases = (
+				6547674B61C4C3CCD773C3DC /* [CP] Check Pods Manifest.lock */,
 				2B721CBA22BA084E002F3036 /* Sources */,
 				2B721CBB22BA084E002F3036 /* Frameworks */,
 				2B721CBC22BA084E002F3036 /* Resources */,
+				7D461224C534732D1F44BDE8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,11 +162,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6547674B61C4C3CCD773C3DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Offer_alamo2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D461224C534732D1F44BDE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Offer_alamo2/Pods-Offer_alamo2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Offer_alamo2/Pods-Offer_alamo2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Offer_alamo2/Pods-Offer_alamo2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2B721CBA22BA084E002F3036 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B79F72C22BB56E700C63BF2 /* OffersCell.swift in Sources */,
 				2B721CC422BA084E002F3036 /* ViewController.swift in Sources */,
 				2B721CC222BA084E002F3036 /* AppDelegate.swift in Sources */,
 				2B721CCA22BA084E002F3036 /* Offer_alamo2.xcdatamodeld in Sources */,
@@ -284,6 +356,7 @@
 		};
 		2B721CD422BA084F002F3036 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 286B8BA1F7EF2F8F0FBCECA2 /* Pods-Offer_alamo2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +375,7 @@
 		};
 		2B721CD522BA084F002F3036 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3A66198D0DF08888DE7B94D /* Pods-Offer_alamo2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
